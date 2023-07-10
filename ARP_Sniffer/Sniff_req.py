@@ -31,9 +31,6 @@ def main():
     inter = "Microsoft Wi-Fi Direct Virtual Adapter"
     S = Sniffer(inter)
     S.sniff(inter)
-    """for th in range(cpu_count()):
-        thread = Thread(target=S.sniff(inter), args=(th,))
-        thread.start()"""
 
 
 if __name__ == '__main__':
